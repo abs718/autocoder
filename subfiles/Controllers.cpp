@@ -1,6 +1,6 @@
 #include "StdAfx.h"
 #include "Controllers.h"
-#include "GL/glut" //added this line to test change control
+
 
 void Controllers::SetScreenSize(int Width, int Height)
 {
