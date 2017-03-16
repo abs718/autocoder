@@ -3,7 +3,7 @@
 #include "Dot.h"
 
 
-class Explosion :
+class ExplosionIT :
 	public Entity
 {
 private:
