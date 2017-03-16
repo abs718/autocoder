@@ -8,7 +8,7 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-#include "shared/gltools.h"	// OpenGL toolkit
+#include "shared/g++.tools"	// OpenGL toolkit
 using namespace std;
 
 //set up constants
