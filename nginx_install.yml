@@ -1,11 +1,11 @@
 ---
 - hosts: 192.168.30.133
   tasks:
-    - name: Installs nginx web server
-      yum: pkg=nginx state=installed update_cache=true
+    - name: Installs apache web server
+      yum: pkg=httpd state=installed update_cache=true
       notify:
-        - start nginx
+        - start httpd
 
   handlers:
-    - name: start nginx
-      service: name=nginx state=started
+    - name: start httpd
+      service: name=httpd state=started
