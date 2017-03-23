@@ -2,7 +2,7 @@
 - hosts: 192.168.30.133
   tasks:
     - name: Installs apache web server
-      yum: pkg=httpd state=installed update_cache=true
+      yum install: pkg=httpd state=installed update_cache=true
       notify:
         - start httpd
 
