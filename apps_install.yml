@@ -2,7 +2,7 @@
 - hosts: localhost
   tasks:
     - name: Installs apache web server
-      yum: pkg=httpd state=installed update_cache=true
+      yum: pkg=httpd state=installed update_cache=false
       notify:
         - start httpd
 
